@@ -20,7 +20,7 @@ show_wiki_posts: true
 show_wiki_posts_limit: 
 # from jekyll (read jekyll doc)
 paginate: 20
-paginate_path: "assets/blog/page:num"
+paginate_path: "blog/page:num"
 permalink: /blog/posts/:year/:month/:day/:title:output_ext
 # (boolean) Enable/disable download buttons in sidebar
 show_downloads: true
@@ -132,7 +132,7 @@ inc_after_content :
 inc_before_footer : 
 inc_after_footer : 
 inc_before_head : 
-inc_after_head : head.html
+inc_after_head : 
 inc_before_meta : 
 inc_after_meta : 
 inc_before_scripts : 
